@@ -1,0 +1,15 @@
+[
+  {
+    "name": "ss",
+    "script": "bin/run",
+    "error_file": "log/ss-err.log",
+    "out_file": "log/ss-out.log",
+    "pid_file": "log/ss.pid",
+    "one_launch_only": "true",
+    "instances": 4,
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": "80"
+    }
+  }
+]
