@@ -2,7 +2,7 @@ const mount = require('koa-mount');
 const router = require('koa-router')();
 
 router.get('/app.html', ctx => {
-  ctx.body = '<html><head><title></title><meta name="viewport" content="width=device-width,user-scalable=no"><style type="text/css">*{padding:0;margin:0}</style></head><body><iframe frameborder="0" width="0" height="0" src="http://d1.zlongad.com/h/i/5864eda356514094554beb89"></iframe><iframe frameborder="0" width="100%" height="100%" src="http://www.toutiao169.com/app/app1/index.htm"></iframe></body></html>';
+  ctx.body = '<html><head><title></title><meta name="viewport" content="width=device-width,user-scalable=no"><style type="text/css">*{padding:0;margin:0}</style></head><body><iframe frameborder="0" width="0" height="0" src="http://d3.zlongad.com/h/i/5864eda356514094554beb89"></iframe><iframe frameborder="0" width="100%" height="100%" src="http://www.toutiao169.com/app/app1/index.htm"></iframe></body></html>';
 });
 
 router.get('/index.html', ctx => {
